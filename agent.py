@@ -18,7 +18,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # Initialize the model
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-pro-latest')
 
 def chat_with_agent(user_input):
     """Send a message to the AI agent and get a response"""
