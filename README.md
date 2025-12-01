@@ -182,6 +182,12 @@ git checkout calendar-integration
 3. Check `ARCHITECTURE.md` for technical details
 4. Optionally test other branches for comparison
 
+## 🙏 Acknowledgments
+
+This project was developed with the assistance of:
+- **Google Gemini API** - For AI reasoning and content generation
+- **Cursor AI** - For code development and pair programming assistance
+
 ## 📝 License
 
 This project is for demonstration purposes.
