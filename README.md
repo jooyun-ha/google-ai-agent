@@ -4,11 +4,35 @@ A multi-agent AI system that recommends lunch options based on meeting context, 
 
 ## 🎯 Quick Start for Judges
 
-**Want to test immediately?** Use the demo mode (no setup required):
+**Two ways to test:**
+
+### Option 1: Interactive Manual Mode (Recommended for Demo)
+Shows the full multi-agent pipeline with step-by-step processing:
+
+```bash
+python3 agent.py
+```
+
+Then type: `I want to have lunch in san francisco near github hq that helps with my diabetes`
+
+**What it shows:**
+- ✅ Planner Agent extracting constraints
+- ✅ Maps Tool searching restaurants
+- ✅ Health Scoring calculation
+- ✅ Final Agent generating top 3 recommendations with addresses
+- ✅ Full interactive flow
+
+### Option 2: Calendar Demo Mode (Automated)
+Shows calendar integration with automatic event processing:
 
 ```bash
 python3 calendar_agent_demo.py
 ```
+
+**What it shows:**
+- ✅ Calendar event processing
+- ✅ Automatic constraint extraction
+- ✅ Full pipeline demonstration
 
 See [JUDGES_GUIDE.md](JUDGES_GUIDE.md) for detailed testing instructions.
 
